@@ -1,0 +1,41 @@
+body{
+    background-color: #fff;
+}
+
+.navbar{
+    background-color:#fff;
+    box-shadow: 0px 1px 4px 0px #cfcbcb;
+}
+
+.navbar-nav .nav-link{
+    font-size: 16px;
+    color: #000;
+}
+
+h3{
+    color: #000;
+    font-weight: bold;
+}
+
+.prix{
+    color: #e83e8c;
+}
+
+.item-menu{
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.item-menu img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.item-menu:hover{
+    scale: 1.1;
+    background-color: #f3f1f1;
+}
+

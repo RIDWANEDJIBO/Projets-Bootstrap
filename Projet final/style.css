@@ -1,0 +1,23 @@
+*{
+    scroll-behavior: smooth;
+}
+.global-cont{
+    max-width: 1912px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+video{
+    object-fit: cover;
+}
+
+.video-fillter{
+    opacity: 0.5;
+}
+
+.img-para{
+    width: 100%;
+    height: 300px;
+    background: no-repeat center / cover url(sources/img-para.jpg);
+    background-attachment: fixed;
+}
